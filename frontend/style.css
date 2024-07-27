@@ -1,0 +1,314 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.head-section{
+width:100vw;
+height:78vh;
+background-image:url("https://img.freepik.com/free-vector/seamless-sweet-pastries_1284-3605.jpg");
+padding-top:8%;
+
+}
+
+.navbar{
+  height: 60px;
+  width: 100vw;
+  background-color: #6B240C;
+  position: fixed;
+}
+
+.navbar-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar-list li{
+  display: inline;
+  font-family: "Lexend Deca", sans-serif;
+  float: right;
+  padding-right: 60px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+
+
+.navbar-list a{
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.navbar-list a:hover {
+  color: wheat;
+  text-decoration: none;
+}
+
+.order-online{
+  background-color: #6B240C;
+  width: 200px;
+  height: 35px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+    border-radius: 5px;
+  font-size: 20px;
+  color: #ECB159;
+}
+
+.white-div{
+width:70%;
+height:80%;
+margin-left:10%;
+background-color:#ECB159;
+display:flex;
+justify-content:center;
+align-items:center;
+padding-left:50px;
+padding-right:50px;
+display: flex;
+flex-direction: column;
+}
+
+.tagline{
+  font-size:40px;
+  font-family: 'League Spartan', sans-serif;
+  text-align:center;
+  color:white;
+  margin-top: 15px;
+}
+
+.name{
+  font-size:85px;
+  font-family: 'League Spartan', sans-serif;
+  text-align:center;
+  color:#6B240C;
+}
+
+.order-now{
+width:110vw;
+height:120vh;
+background-color:#ECB159;
+padding-top:30px;
+font-size: 25px;
+color: #6B240C;
+}
+
+.user-form{
+margin-left:100px;
+width:450px;
+height:90vh;
+background-color:white;
+border-radius:10px;
+display:flex;
+padding-left:20px;
+margin-top: 30px;
+}
+
+.pastry-shop-gif{
+  margin-left: 90px;
+}
+
+
+.submit-btn{
+width:80vw;
+height:40px;
+border-radius:10px;
+border:none;
+background-color:#6B240C;
+margin-top:30px;
+color:#ECB159;
+font-family: "Lexend Deca", sans-serif;
+font-size: 20px;
+}
+
+form{
+font-family: 'League Spartan', sans-serif;
+}
+
+.order-today-heading, .our-menu-heading{
+font-family: 'League Spartan', sans-serif;
+margin-left:100px;
+font-size:60px;
+color:white;
+}
+
+.input-field{
+height:100px;
+width:25vw;
+border-radius:5px;
+border: 1px #6B240C solid;
+padding-left: 5px;
+margin-top: -15px; 
+}
+
+.input-label{
+  font-family: "Lexend Deca", sans-serif;
+  font-size:18px;
+color:#6B240C;
+padding-top: 15px;
+}
+
+
+.our-menu{
+width:100vw;
+height:90vh;
+background-color:#6B240C;
+padding-top:50px;
+}
+
+table, th, td {
+  border: 1px solid #ECB159;
+  border-collapse: collapse;
+  color:white;
+  font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+}
+
+th{
+  font-size:20px;
+}
+
+td{
+  font-size:16px;
+}
+
+.menu-table{
+margin-left:100px;
+margin-top: 30px;
+}
+
+.radio-label{
+  color: #6B240C;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+
+.select-menu{
+  /* margin-bottom: 25px; */
+}
+
+input[type=radio] {
+  border: 0px;
+  width: 7%;
+  height: 1em;
+}
+
+
+.about-us{
+  width:100vw;
+height:90vh;
+background-color:#ECB159;
+padding-top:100px;
+}
+
+.about-us-heading{
+  color: #6B240C;
+  font-family: 'League Spartan', sans-serif;
+margin-left:100px;
+font-size:60px;
+}
+
+.contact-us-heading{
+  color: #6B240C;
+  font-family: 'League Spartan', sans-serif;
+margin-left:100px;
+font-size:70px;
+margin-bottom: 20px;
+padding-top: 90px;
+}
+
+.contact-us{
+height: 90vh;
+
+}
+
+.about-us-desc{
+  color: rgb(255, 255, 255);
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1px 250px 10px 0px;
+margin-left:100px;
+font-size:20px;
+line-height: 27px;
+
+}
+
+.column {
+  float: left;
+  /* width: 25%; */
+  padding: 0 10px;
+}
+
+.column:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+  padding-left: 120px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 200px;
+  height: 200px;
+}
+
+.dish{
+  width: 100%;
+  height: 100%;
+}
+
+.feedback{
+  margin-left:100px;
+}
+
+.feedback-input{
+  height: 100px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.feedback-submit-btn{
+    width:200px;
+    height:45px;
+    border-radius:10px;
+    border:none;
+    background-color:#6B240C;
+    margin-top:30px;
+    color:#ECB159;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    
+}
+
+.checked {
+  color: orange;
+}
+
+
+.contact-us{
+  display: flex;
+}
+
